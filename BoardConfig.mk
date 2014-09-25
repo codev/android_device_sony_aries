@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# inherit from the common rhine definitions
-include device/sony/rhine-common/BoardConfigCommon.mk
+# inherit from the common shinaro definitions
+include device/sony/shinaro-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 #-include vendor/sony/amami/BoardConfigVendor.mk
@@ -26,7 +26,7 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/amami/include
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/amami/bluetooth
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := cm_rhine_amami_row_defconfig
+TARGET_KERNEL_CONFIG := cm_shinaro_amami_row_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26

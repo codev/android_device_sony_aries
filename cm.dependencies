@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_device_sony_rhine-common",
-    "target_path": "device/sony/rhine-common"
+    "repository": "android_device_sony_shinaro-common",
+    "target_path": "device/sony/shinaro-common"
   }
 ]

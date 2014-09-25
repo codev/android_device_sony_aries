@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit the fusion-common definitions
-$(call inherit-product, device/sony/rhine-common/rhine.mk)
+$(call inherit-product, device/sony/shinaro-common/shinaro.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/sony/amami/overlay
 
