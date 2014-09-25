@@ -16,17 +16,17 @@
 include device/sony/shinaro-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
-#-include vendor/sony/amami/BoardConfigVendor.mk
+#-include vendor/sony/aries/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := D5503,amami,anami
+TARGET_OTA_ASSERT_DEVICE := D5503,aries,anami
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/amami/include
+TARGET_SPECIFIC_HEADER_PATH += device/sony/aries/include
 
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/amami/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/aries/bluetooth
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := cm_shinaro_amami_row_defconfig
+TARGET_KERNEL_CONFIG := cm_shinaro_aries_row_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26

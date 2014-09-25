@@ -15,7 +15,7 @@
 # Inherit the fusion-common definitions
 $(call inherit-product, device/sony/shinaro-common/shinaro.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/sony/amami/overlay
+DEVICE_PACKAGE_OVERLAYS += device/sony/aries/overlay
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
@@ -47,4 +47,4 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 
 # Include non-opensource parts
-$(call inherit-product, vendor/sony/amami/amami-vendor.mk)
+$(call inherit-product, vendor/sony/aries/aries-vendor.mk)
